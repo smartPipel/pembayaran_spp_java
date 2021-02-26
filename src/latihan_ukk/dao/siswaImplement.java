@@ -3,22 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dao;
+package latihan_ukk.dao;
 
 import java.util.List;
-import latihan_ukk.model.Kelas;
+
+import latihan_ukk.model.Siswa;
 
 /**
  *
  * @author ASUS
  */
-public interface kelasImplement {
+public interface siswaImplement {
 
-    public void insert(Kelas kelas);
+    public void insert(Siswa kelas);
 
-    public void delete(Kelas kelas);
+    public void delete(Siswa kelas);
 
-    public void update(Kelas kelas);
+    public void update(Siswa kelas);
 
-    public List<Kelas> getKelasList();
+    public List<Siswa> getSiswaList();
+
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dao;
+package latihan_ukk.dao;
 
 import java.util.List;
 import latihan_ukk.model.Spp;

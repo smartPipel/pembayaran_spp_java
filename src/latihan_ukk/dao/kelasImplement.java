@@ -3,22 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dao;
+package latihan_ukk.dao;
 
 import java.util.List;
-import latihan_ukk.model.Petugas;
+import latihan_ukk.model.Kelas;
 
 /**
  *
  * @author ASUS
  */
-public interface petugasImplement {
+public interface kelasImplement {
 
-    public void insert(Petugas kelas);
+    public void insert(Kelas kelas);
 
-    public void delete(Petugas kelas);
+    public void delete(Kelas kelas);
 
-    public void update(Petugas kelas);
+    public void update(Kelas kelas);
 
-    public List<Petugas> getPetugasList();
+    public List<Kelas> getKelasList();
 }
